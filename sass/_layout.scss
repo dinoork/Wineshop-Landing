@@ -1,0 +1,49 @@
+.row {
+    max-width: 111rem;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(../img/bgc.png);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+
+    &__information {
+        display: flex;
+        font-size: 1.3rem;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+}
+
+
+.section-description {
+    background-color: var(--color-black);
+    padding: 10rem 0;
+}
+
+.section-collection {
+    background-color: var(--color-accent-back);
+    padding: 8rem 0;
+}
+
+
+.section-degustation {
+    background-color: var(--color-black);
+    padding: 10rem 0;
+}
+
+.footer {
+    background-color: var(--color-accent);
+    padding: 5rem 0;
+}
