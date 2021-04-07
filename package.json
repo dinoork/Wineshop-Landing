@@ -11,7 +11,7 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
 
-    "build": "babel index.js -d dist"
+    "build": "babel index.js select/select.js -d dist"
   },
   "author": "Alex",
   "license": "ISC",
